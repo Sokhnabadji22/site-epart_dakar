@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div-header .logo {
+    width: 300px;
+    height: 100px;
+}
+
+.div-header .logo img{
+    width: 100%;
+}
+
+.div-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.div-header .recherche{
+    display: flex; 
+    gap: 20px; 
+}
+
+.div-header .recherche form{
+    display: flex;
+   width: 400px;
+   height: 40px;  
+}
+
+.div-header .recherche form input{
+    width: 90%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(233,236,239);
+}
+
+.div-header .recherche form i{
+    width:10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.div-header .recherche .div-button{
+    display: flex;
+    gap: 20px;
+    width:300px;
+    height: 50px; 
+}
+
+.div-header .recherche .div-button .button{
+    width: 35%;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.div-header .recherche .div-button a{
+    color: black;
+    text-decoration: none;
+    padding-top: 15px;
+   font-weight:bold ;
+}
+
+.sec1{
+    background-color: rgb(233,236,239);
+    padding: 20px;
+}
+
+.sec1 h1{
+text-align: center;
+color: grey;
+padding-top: 20px;
+}
+
+.sec1 p{
+    text-align: end;
+    padding-bottom:50px ;
+    color: grey;
+}
+.sec1 .class-mere{
+    display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 200px; 
+}
+
+.sec1 .class-mere .ma-class{
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+
+.sec1 .class-mere .ma-class a{
+    text-decoration: none;
+    color: black;
+    height: 100px;
+}
+
+.sec1 .class-mere .ma-class .center-icon{
+    text-align: center;     
+}
+
+.sec1 .class-mere .ma-class .center-icon i{
+    background-color: orange;
+    position: relative;
+    top:-20px;
+    border-radius: 20px; 
+    padding: 10px;
+    color: white;    
+}
+
+.sec1 .class-mere .ma-class h2{
+   text-align: center;
+}
+.sec1 .class-mere .ma-class a ul{
+   height: 90px;
+}
+
+.sec1 .class-mere .ma-class a ul li{
+    list-style: none;  
+}
+
+.sec1 .class-mere .ma-class a .span{
+    padding: 10px;
+}
+
+.sec1 .class-mere .ma-class a .span1{
+   color: orange;   
+}
+
+.sec1 .class-mere .ma-class a .span2{
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: rgb(233,236,239);
+}
+
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(17,46,70) ;
+    color: white;
+    padding: 50px;
+    height: 300px;   
+}
+
+.sec2 .foot-contact1{
+    display: flex;
+   flex-direction: column;  
+}
+
+.sec2 .foot-contact1 .foot-contact2{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.sec2 .foot-contact1 .foot-contact2 .classp p{
+   font-size: 20px;
+   padding: 10px;
+}
+
+.sec2 .foot-contact1 .foot-lien1{
+    text-align: center;
+    padding: 50px;
+}
+
+.sec2 .foot-contact1 .foot-lien1 .lienp{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 15px;
+   
+}
+
+
+.sec2 .foot-contact1 a{
+    color: white; 
+    text-decoration: none; 
+}
+
+.sec2 .foot-lien a{
+    color: white; 
+    text-decoration: none; 
+}
+.sec2 .foot-lien{
+    display: flex;
+    justify-content: space-around;
+   gap: 20px; 
+}
+
+.sec2 .foot-lien .foot-lien2{
+    text-align: center;   
+}
+
+
+.sec2 .foot-lien .foot-lien3{
+    text-align: center;  
+}
+
+.foot-lien hr{
+   width: 300px;
+}
+
+.sec2 .foot-lien img{
+    width: 200px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 15px; 
+}
+
+.fa-facebook{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fa-twitter{
+    background-color: rgb(0, 225, 255);
+    border-radius: 20px; 
+    padding: 10px;  
+}
+
+.fa-instagram{
+    background-color:purple ;
+    border-radius: 20px;
+    padding: 10px;   
+}
+
+.fa-linkedin{
+    background-color:blue ;
+    border-radius: 20px;  
+    padding: 10px; 
+}
+
+    
+.lien-der{
+    background-color: gray;
+    padding: 20px;
+   
+}
+
+
+
+
+@media screen and (max-width:1000px){
+
+    .div-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-header .recherche{
+        display: flex; 
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+
+    .div-header .recherche form{
+        display: flex;
+       width: 350px;
+         
+    }
+
+    
+.sec2{
+    display: flex;
+   flex-direction: column;
+   height: 100%;
+   
+}
+
+.sec2 .foot-contact1 .foot-contact2{
+    display: flex;
+   flex-direction: column; 
+}
+
+.sec2 .foot-lien{
+    display: flex;
+   flex-direction:column ;
+   
+}
+
+    
+
+    
+    
+}
